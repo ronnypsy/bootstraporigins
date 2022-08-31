@@ -49,6 +49,22 @@
         border-bottom-right-radius: 50%;
     }
 
+#separador-figuras {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+    
+    #separador-figuras  .content {
+        width: 400%;
+        height: 100px;
+        margin-left: -5%;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+    }
+
+
 .card-bordes {
     background-color: rgba(204, 164, 53, 0.144);
     border: solid 10px white;
