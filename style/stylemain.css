@@ -1,6 +1,6 @@
 #liston {
     background: rgb(55,52,36);
-    background-image: linear-gradient(90deg, rgba(55,52,36,1) 0%, rgba(0,0,0,1) 50%, rgba(55,52,36,1) 100%)
+    background-image: linear-gradient(90deg, rgba(55,52,36,1) 0%, rgba(0,0,0,1) 50%, rgba(55,52,36,1) 100%);
 }
 
     #liston::after {
@@ -35,7 +35,7 @@
          text-shadow: 0px 5px 10px rgb(80, 85, 45);
         }
 
-#separador {
+ /* #separador {
     width: 100%;
     position: relative;
     z-index: 2;
@@ -47,7 +47,9 @@
         margin-left: -25%;
         border-bottom-left-radius: 50%;
         border-bottom-right-radius: 50%;
+        
     }
+*/ 
 
 #separador-figuras {
     width: 100%;
@@ -77,8 +79,28 @@
     transform: scale(1.10);
     }
 
-#figura {
-        background: rgb(55,52,36);
-        background-image: linear-gradient(90deg, rgba(55,52,36,1) 0%, rgba(0,0,0,1) 50%, rgba(55,52,36,1) 100%)
- }
+
+#figuras {
+    background: rgb(55,52,36);
+    background-image: linear-gradient(90deg, rgba(55,52,36,1) 0%, rgba(0,0,0,1) 50%, rgba(55,52,36,1) 100%);
+    
+}
+
+.card-figuras {
+    background: none;
+    background-color: none;
+    background-image: none;   
+    border: none;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+    .card-figuras:hover {
+    transform: scale(1.05);
+    }
+
+.text-figura {
+    text-shadow: 0px 5px 10px rgb(165, 170, 135);
+}
 
