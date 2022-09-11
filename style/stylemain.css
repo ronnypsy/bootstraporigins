@@ -19,7 +19,6 @@
         margin-top: -40px;
     }
 
-
 #anibayek {
      background-color: rgb(41, 41, 34);
      position: relative;
@@ -29,7 +28,6 @@
      box-shadow: 0 0 10px rgb(0, 0,0);
 }
 
-
     #anibayek img {
         position: relative;
         margin-top: -40px;
@@ -38,7 +36,6 @@
         .text-bayek {
          text-shadow: 0px 5px 10px rgb(80, 85, 45);
         }
-
 
 #separador-figuras {
     width: 100%;
@@ -53,9 +50,7 @@
         margin-left: -5%;
         border-top-left-radius: 50%;
         border-top-right-radius: 50%;
-    }
-
-
+    } 
 .card-bordes {
     background-color: rgba(204, 164, 53, 0.144);
     border: solid 10px white;
@@ -84,12 +79,15 @@
     overflow: hidden;
     transition: all ease-out 0.2s;
 }
-
     .card-figuras:hover {
     transform: scale(1.05);
     }
 
-.text-figura {
+    .text-figura {
     text-shadow: 0px 5px 10px rgb(165, 170, 135);
-}
+    }
 
+#plataformas {
+    background: rgb(55,52,36);
+    background-image: linear-gradient(90deg, rgba(55,52,36,1) 0%, rgba(0,0,0,1) 50%, rgba(55,52,36,1) 100%);     
+ }    
