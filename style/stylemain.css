@@ -1,3 +1,15 @@
+#b-registro {
+    background: rgb(55,52,36);
+    background-image: linear-gradient(90deg, rgba(55,52,36,1) 0%, rgba(0,0,0,1) 50%, rgba(55,52,36,1) 100%);
+
+}
+
+.bg-img {
+    background: url(../assets/hojaoculta.jpg);
+    background-position: center;
+
+}
+
 #bg-mirage {
     background-color: black;
 }
